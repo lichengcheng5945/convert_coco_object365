@@ -129,7 +129,7 @@ def main_object365(classes, input_dir, output_dir, headstr, tailstr, objectstr):
             if not classes:
                 classes_names[int(key)] = value
 
-            if key in classes:
+            if value in classes:
                 classes_names[int(key)] = value
 
     anno_dir, img_dir = find_anno_img(input_dir)
